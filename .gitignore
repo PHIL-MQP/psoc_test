@@ -1,16 +1,17 @@
 Backup/
-CE95352 Blinking LED.cydsn/ARM_GCC_493/
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED.cycdx
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED.cyfit
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED.cyprj.peter
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED.rpt
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED.svd
-CE95352 Blinking LED.cydsn/CE95352 Blinking LED_timing.html
-CE95352 Blinking LED.cydsn/Export/
-CE95352 Blinking LED.cydsn/Generated_Source/
-CE95352 Blinking LED.cydsn/codegentemp/
-CE95352 Blinking LED.cydsn/device.h
-CE95352 Blinking LED.cywrk
-CE95352 Blinking LED.cywrk.peter
-CE95352 Blinking LED.pdf
+Debug
+ARM_GCC_493/
+*.cycdx
+*.cyfit
+*.cyprj.peter
+*.rpt
+*.svd
+*.html
+Export/
+Generated_Source/
+codegentemp/
+device.h
+*.cywrk
+*.cywrk.peter
+*.pdf
 ComponentUpdateLog.txt
