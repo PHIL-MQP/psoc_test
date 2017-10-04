@@ -237,13 +237,15 @@
   <Data key="DataVersionKey" value="1" />
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
-      <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Rx_IN" />
+      <Data key="3c01403b-dc0c-441d-8f4c-06b6e5c882b7" value="Pin_1" />
+      <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="RX_CMP_IN" />
       <Data key="8d373f17-7cf9-4d88-84a8-8ccefcd7306c" value="Vout_1" />
       <Data key="27fc1820-f854-4ef2-a3a7-c06c9e5cf3a9" value="ADC_IN" />
       <Data key="59be879b-e05a-4c20-b67f-131b05cc22d1" value="OpAmp1_Out" />
       <Data key="77715107-f8d5-47e5-a629-0fb83101ac6b" value="OpAmp1_inv_input" />
       <Data key="cc3bcd7e-5dc0-48ea-9bf6-6aa082be1ada" value="OpAmp2_Out" />
       <Data key="db2b97d9-19d4-4eb2-ac14-61efd1b6bf20" value="Pin_3" />
+      <Data key="de0270c4-50fd-4827-ac4f-7c6c62395663" value="US_OUT" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="LED_OUT" />
       <Data key="fc6fea6d-56cf-487e-a2cd-e6aa2db5c2bc" value="DAC_Out" />
     </Group>
@@ -3332,6 +3334,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="3c01403b-dc0c-441d-8f4c-06b6e5c882b7">
+      <Group key="0">
+        <Data key="Port Format" value="2,7" />
+      </Group>
+    </Group>
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="2,5" />
@@ -3365,6 +3372,11 @@
     <Group key="db2b97d9-19d4-4eb2-ac14-61efd1b6bf20">
       <Group key="0">
         <Data key="Port Format" value="1,5" />
+      </Group>
+    </Group>
+    <Group key="de0270c4-50fd-4827-ac4f-7c6c62395663">
+      <Group key="0">
+        <Data key="Port Format" value="1,6" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
