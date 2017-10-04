@@ -13,12 +13,13 @@ int main()
     for(;;)
     {
         uint8_t rx_high = RX_CMP_IN_Read();
+        
         if (!enabled && rx_high) {
             enabled = 1;
             WaveDAC8_1_Enable();
             LED_OUT_Write(1);
         }
-        else {
+        else if (!rx_high) {
             enabled = 0;
             WaveDAC8_1_Stop();
             LED_OUT_Write(0);
